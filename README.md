@@ -116,7 +116,7 @@ If you have opened the website ``chat.zalo.me`` but the extension does not have 
 Example Usage
 -------------
 
-.. code:: py
+.code: py
 
     from zlapi import ZaloAPI
     from zlapi.models import *
