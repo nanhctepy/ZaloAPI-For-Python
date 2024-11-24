@@ -62,18 +62,12 @@ This is an updated version for ``zlapi`` to improve features and fix bugs (v1.0.
 - Add ``On Event`` function to handle group and user events.
 - Add ``Parse Mode`` for [Message](#messages).
 
-**Bugfixes**
-
-- Fixed bug of the ``replyMessage`` function, only replying to normal messages.
-
-- Fixed payload in function ``addUsersToGroup``.
-
 </br>
 
 ## Installation
 
 ```bash
-pip install zlapi
+https://github.com/nanhctepy/ZaloAPI-For-Python
 ```
 
 If you don't have zlapi, [this guide](https://github.com/nanhctepy/ZaloAPI-For-Python) can guide you through the process. This is Github to Downloads
@@ -81,7 +75,7 @@ If you don't have zlapi, [this guide](https://github.com/nanhctepy/ZaloAPI-For-P
 You can also install directly from source, provided you have ``pip>=19.0``:
 
 ```bash
-pip install git+https://github.com/Its-VrxxDev/zlapi.git
+pip install git+https://github.com/nanhctepy/ZaloAPI-For-Python
 ```
 
 </br>
@@ -132,7 +126,7 @@ Example Usage
     client = ZaloAPI("<phone>", "<password>", imei=imei, session_cookies=cookies)
     client.send(Message(text="Hi Myself!"), thread_id=client.uid, thread_type=ThreadType.USER)
 
-More examples are available `here <https://github.com/Its-VrxxDev/zlapi/blob/v1.0.1/examples>`__.
+More examples are available `here <https://github.com/nanhctepy/ZaloAPI-For-Python>`__.
 
 This project is a relocation
 ============================
