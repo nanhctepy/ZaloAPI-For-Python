@@ -1,6 +1,6 @@
 ![Logo](https://i.imgur.com/CMnA5Sh.jpeg "Logo")
 
-## ``zlapi`` - Zalo API (UnOffical) for Python CopyRight Lê Ngọc Anh
+## ``zlapi`` - Zalo API (UnOfficial) for Python CopyRight Lê Ngọc Anh
 A powerful and efficient library to interact with Zalo Website. 
 This is *not* an official API, Zalo has that `over here <https://developers.zalo.me/docs>`__ for chat bots. This library differs by using a normal Zalo account instead (More flexible).
 
